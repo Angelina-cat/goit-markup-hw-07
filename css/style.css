@@ -1063,7 +1063,7 @@ opacity: 1;
  }
  .modal-icon{
     
-     position: relative;
+    
  display: flex;
     width: 30px;
     height: 30px;
@@ -1380,10 +1380,7 @@ padding-left: 95px;
 }
 .modal-agree{
     display: flex;
-    margin-left: 54px;
-     padding-top: 25px; 
-     width:16px ;
-     height:15px ;
+   align-items: center;
 }
 .modal-agree input:hover{
     background-color:#2196f3
@@ -1418,3 +1415,4 @@ padding-right: 13px;
     justify-content: right;
     
 }
+
