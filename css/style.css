@@ -785,10 +785,20 @@ footer a:focus {
     
     background-position: center;
 }
+
 .modal-link-icon{
+    color:"#2196f3" ;
     background-size: contain;
     background-position-x: left;
     
+}
+.kontakt-modal:focus
+.kontakt-modal:focus use{
+    fill: #2196f3;
+}
+.box-modal:focus,
+.box-modal:focus use{
+    fill: #b5c2ce;
 }
 .clients-list {
     display: flex;
@@ -1011,13 +1021,14 @@ opacity: 1;
         
         transition:transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
         transform: translate(-30%, -30%) scale(1);
+        padding-top: 40px;
     }
 .modal-info{
     
     color:rgba(33, 33, 33, 1);
     
 
-    font-family: Roboto sans-serif;
+    font-family: Roboto ,sans-serif;
     font-size: 20px;
     font-style: normal;
     font-weight: 700;
@@ -1068,8 +1079,10 @@ color: #2196f3;
     height: 30px;
     border:  1px solid rgba(0, 0, 0, 0.1);
     border-radius: 50%;
-
+position: absolute;
     
+top: 8px;
+right: 8px;
     
    
 
@@ -1427,8 +1440,14 @@ padding-right: 13px;
     
 }
 .chek-modal{
-    margin-left: 54px;
+    display: flex;
+    margin-left: 52px;
+    
+
 }
-.chek-modal:focus{
-    color: #2196f3;
+.text-modal:focus,
+.text-modal:focus use{
+    outline: #2196f3;
+    border-color: #2196f3;
+    fill: #2196f3;
 }
