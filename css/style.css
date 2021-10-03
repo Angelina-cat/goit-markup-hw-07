@@ -1495,7 +1495,8 @@ background-color: #e5e5e5;
 .checkbox:checked +.checkbox-one{
     background-color: #2196f3;
     background-image: url(../img/Vector66.svg);
-    
+    background-position: center;
+    background-repeat: no-repeat;
 }
 .checkbox:checked:focus +.checkbox-one{
     background-color: #2196f3;
