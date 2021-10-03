@@ -1480,10 +1480,24 @@ padding-right: 13px;
     background-color: #2196f3;
 }
 .checkbox-one{
+    display: inline-block;
     position: absolute;
     width: 16px;
     height: 15px;
-    background-image: url(../img/Vector-4.svg);
+    border-radius: 4px solid  rgba(33, 33, 33, 1);
+background-color: #e5e5e5;
+    
     margin-left: 52px;
+   box-shadow:rgba(33, 33, 33, 1);
    
+}
+
+.checkbox:checked +.checkbox-one{
+    background-color: #2196f3;
+    background-image: url(../img/Vector66.svg);
+    
+}
+.checkbox:checked:focus +.checkbox-one{
+    background-color: #2196f3;
+    
 }
