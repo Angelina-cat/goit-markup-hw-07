@@ -93,7 +93,7 @@
                   <div class="second-icon">
                     <input type="text" name="username" class="box-modal text-modal" required>
                    
-                        <svg class="person-second modal-link-icon  " width="13" height="13">
+                        <svg class="person-second modal-link-icon  " width="13" height="13" id="modal-name-second">
                           <use href="./img/sprite-icon.svg#icon-person-black-18dp-1-1"></use>
                       </svg>
                     </div>
@@ -107,7 +107,7 @@
                         <input type="tel" name="phone_number" class="kontakt-modal box-modal"pattern="[\+]\d{3}\s[\(]\d{2}[\)]\s\d{3}[\-]\d{2}[\-]\d{2}" required>
                         
                     
-                            <svg class=" phone-black modal-link-icon" width="13" height="13">
+                            <svg class=" phone-black modal-link-icon" width="13" height="13" >
                                 <use href="./img/sprite-icon.svg#icon-phone-black-18dp-1"></use>
                             </svg>
                         </div>
@@ -133,8 +133,8 @@
                     <textarea name="feedback" rows="5" placeholder="Введите текст" class="commet-text"></textarea>
               
                 </label> 
-                <label for="#" class="modal-agree"> 
-                  <input type="checkbox" name="checkbox" class="chek-modal checkbox" name="topic" value="css" checked>  <span class="checkbox-one"></span><p class="text-modal-do">  Соглашаюсь с рассылкой и принимаю <a href="#" class="blue-color">Условия договора</a></p>
+                <label for="do-it" class="modal-agree"> 
+                  <input type="checkbox" name="checkbox" class="chek-modal checkbox" name="topic" value="css" id="do-it">  <span class="checkbox-one"></span><p class="text-modal-do">  Соглашаюсь с рассылкой и принимаю <a href="#" class="blue-color">Условия договора</a></p>
                   
                 </label>
                 <button type="submit" class="fly-button"> Отправить </button>
